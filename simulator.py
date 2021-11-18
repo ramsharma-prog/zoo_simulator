@@ -32,8 +32,6 @@ class Simulator:
             self.zoo.append(Giraffe())
             self.zoo.append((Elephant()))
 
-        # NOTE:-->  StringVar---I got some help with StringVar()--------#
-
         self.time = 0  # To be used in time_rolling function
         self.timer_text = tk.StringVar()
         self.display_layout()
